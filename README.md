@@ -1,7 +1,7 @@
 # Dataextraction-trough-API-with-R
 Extraction of taxi drive data of the new york city open data platform API
 
-**What?** <br>
+## **What?** <br>
 REQUEST 
 - define url to tackle Socrata REST API in order to retrieve data from the new york open data platform
 - define path to extract json data about taxi drives incl. filtering
@@ -12,6 +12,6 @@ RESPONSE
 - parse json file to a more readable dataframe 
 - store dataframe as csv file
 
-**Libraries:**
+## **Libraries:**
 - httr: enables working with web APIs organised by HTTP verbs
 - jsonlite: json parser and generator
